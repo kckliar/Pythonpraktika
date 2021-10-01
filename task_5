@@ -1,0 +1,4 @@
+a =float(input(" Введите ваш рост "))
+b =float(input(" введите ваш вес "))
+c = b / (a ** 2)
+print(c)
