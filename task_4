@@ -1,0 +1,8 @@
+usertime = list(map(int, input('Введите ваше текущее время в формате чч:мм:сс -').split(":",2)))
+hours = usertime[0]
+minutes = usertime[1]
+second = usertime[2]
+secondInHours = hours * 3600
+secondInMinutes = minutes * 60
+secondInUsertime = float(secondInHours + secondInMinutes + second)
+print(secondInUsertime)
